@@ -1,7 +1,15 @@
+/* General Changes */
+h3{
+    font-size: 17px;
+    font-weight: bold;
+}
+
 body{
     font-family: "Roboto", sans-serif;
 }
 
+
+/* Navbar Section */
 .navbar{
     border-bottom: #990099 solid 2px;
 }
@@ -19,6 +27,7 @@ body{
     color: #990099 !important;
 }
 
+/* Header Section */
 #header{
     background: url('../images/header-bg.jpg') no-repeat;
     background-size: cover;
@@ -40,4 +49,15 @@ h1{
 
 .btn-outline-secondary:hover{
     background-color: #990099;
+}
+
+/* Features */
+#features i{
+    color: #990099;
+    cursor: pointer;
+}
+
+#features h3:hover{
+    color: #990099;
+    cursor: pointer;
 }
