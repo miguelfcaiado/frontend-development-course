@@ -63,3 +63,96 @@
 // var isLoggedIn = true;
 
 
+// Conditional Statements
+
+// var grade, age;
+// grade = 50;
+// age = 23;
+
+// if(grade < 40) {
+//     console.log('You can not go to next class.');
+// } else if(grade >= 40 && grade < 45) {
+//     console.log('You can not go to next class but you can enter exam');
+// }
+// else {
+//     console.log('You can go to next class');
+// }
+
+// if(age < 18) {
+//     console.log('Cannot enter the cafe');
+// } else if(age < 23) {
+//     console.log('Can enter the cafe but cannot drink alcohol');
+// }
+// else {
+//     console.log('Can enter the cafe and drink alcohol');
+// }
+
+
+// Ternary Operator
+
+// var grade = 42;
+
+// grade < 45 ? console.log('You cannot go to the next class') : console.log('You can go to next class');
+
+// var result = grade < 45 ? 'Failure' : 'Success';
+
+// console.log(result);
+
+
+// Switch Statements
+
+// var day;
+// day = 'monday';
+
+// switch (day) {
+//     case 'saturday':
+//         console.log('I like saturday');
+//         break;
+    
+//     case 'monday':
+//         console.log('I do not like monday');
+//         break;
+
+//     case 'friday':
+//         console.log('I really like friday');
+//         break;
+
+//     default:
+//         console.log('I do not know the day');
+// }
+
+
+// var grade = 38;
+
+// switch(true) {
+//     case (grade < 40):
+//         console.log('You can not go to next class');
+//         break;
+
+//     case (grade >= 40 && grade < 45):
+//         console.log('You can not go to next class but you can enter exam');
+//         break;
+
+//     default:
+//         console.log('You can go to next class');
+//         break;
+// }
+
+// var averageAlex, averageSara, averageNancy;
+
+// averageAlex = (90 + 80 + 95) / 3;
+// averageSara = (89 + 76 + 98) / 3;
+// averageNancy = (42 + 98 + 83) / 3;
+
+// if(averageAlex > averageSara && averageAlex > averageNancy){
+//     console.log('Alex')
+// }
+// else if(averageSara > averageAlex && averageSara > averageNancy){
+//     console.log('Sara');
+// }
+// else if(averageNancy > averageAlex && averageNancy > averageSara){
+//     console.log('Nancy');
+// }
+// else{
+//     console.log('There is a draw');
+// }
