@@ -156,3 +156,28 @@
 // else{
 //     console.log('There is a draw');
 // }
+
+
+// LOOPS
+
+// var number = 25;
+
+// while(number < 149) {
+//     if(number <= 100 && number % 7 === 0){
+//         console.log(number);
+//     }
+//     else if((132 <= number <= 148) && (number % 2 === 0)) {
+//         console.log(number)
+//     }
+//     number++;
+// }
+
+
+// for(var i = 25; i <= 148; i++) {
+//     if(i <= 100 && i % 7 === 0){
+//         console.log(i);
+//     }
+//     else if((132 <= i <= 148) && (i % 2 === 0)) {
+//         console.log(i)
+//     }
+// }
