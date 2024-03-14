@@ -181,3 +181,62 @@
 //         console.log(i)
 //     }
 // }
+
+
+// FUNCTIONS
+
+// function sayHello() {
+//     console.log('Hello World');
+// }
+
+// sayHello();
+
+// function doSomething() {
+//     console.log('Hello World');
+//     console.log('Goodbye World');
+//     console.log('How are you?');
+// }
+
+// doSomething();
+// doSomething();
+// doSomething();
+// doSomething();
+
+// function sayHi(name) {
+//     console.log('Hi ' + name)
+// }
+
+// sayHi('Sara');
+// sayHi('John');
+
+// function cube(number) {
+//     console.log(number * number * number)
+// }
+
+// cube(3)
+// cube(79)
+
+// function bmi(length, weight) {
+//     console.log(weight / (length * length))
+// }
+
+// bmi(1.80, 85)
+
+// function calculateAge(birthYear) {
+//     return 2020 - birthYear;
+// }
+
+// var age = calculateAge(1992);
+
+// console.log('This is the age', age)
+
+// function enterCafe(age) {
+//     if(age < 18) {
+//         return 'You can not enter cafe'
+//     }
+//     return 'You can enter cafe'
+// }
+
+// var cafe = enterCafe(17)
+
+// console.log(cafe)
