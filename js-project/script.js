@@ -240,3 +240,65 @@
 // var cafe = enterCafe(17)
 
 // console.log(cafe)
+
+
+// Arrays
+
+// var students = ['Sheldon', 'Leonard', 'Penny', 'Raj'];
+
+// console.log(students);
+// console.log(students[0]);
+
+// students[0] = 'Amy';
+// console.log(students);
+
+// students[4] = 'Howard';
+// console.log(students);
+
+// students[7] = 'John';
+// console.log(students);
+
+// var cats = [];
+// var cats = new Array();
+
+// var commonData = ['John', 25, true, null];
+
+// var student_length = students.length;
+// console.log(student_length);
+
+// Array methods:
+
+//push method adds a new item to the end of an array
+// students.push('Miguel');
+
+//pop method removes the last item from array
+// var lastStudent = students.pop();
+// console.log(lastStudent);
+
+//unshift adds new item to the beginning of the array
+// var cats = ['cat1', 'cat2', 'cat3'];
+// cats.unshift('cat4');
+// console.log(cats);
+
+//shift method removes item from beginning
+// cats.shift();
+// console.log(cats);
+
+//index of
+// console.log(students.indexOf('Sheldon'));
+
+//slice
+// var friends = ['Ross', 'Rachel', 'Joey', 'Chandler'];
+// var closeFriends = friends.slice(1, 3);
+// console.log(friends);
+// console.log(closeFriends);
+
+// var books = ['Harry Potter', 'Hobbit', 'Hunger Games', 'Little Prince'];
+
+// for(var i = 0; i < books.length; i++) {
+//     console.log(books[i]);
+// }
+
+// books.forEach(function(book) {
+//     console.log(book);
+// })
