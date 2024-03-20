@@ -302,3 +302,31 @@
 // books.forEach(function(book) {
 //     console.log(book);
 // })
+
+// Object
+
+// var student = new Object();
+// var student = {
+//     name: 'Sheldon',
+//     age: 36,
+//     school: 'calTech'
+// };
+
+// console.log(student['name']);
+// console.log(student.school);
+
+// var student11 = {
+//     name: 'Amy',
+//     age: 25,
+//     friends: ['Howard', 'Bernadette', 'Raj'],
+//     bestFriend: {
+//         firstName: 'Penny',
+//         birthYear: 1988
+//     }
+// };
+
+// var bestFriendStudent11 = student11.bestFriend.firstName;
+// console.log(bestFriendStudent11);
+
+// var friend2 = student11.friends[1];
+// console.log(friend2);
